@@ -25,13 +25,13 @@ const Navbar = () => {
   };
 
   return (
-    <Fragment>
+    <Box bg={!darkmode ? "#DAFFFB " : "#64CCC5"}>
       <Flex
         minWidth="max-content"
         alignItems="center"
         gap="2"
         bg={!darkmode ? "#176B87" : "#001C30"}
-        color={!darkmode ? "#F8CBA6" : "#fff"}
+        color={!darkmode ? "#ffc" : "#fff"}
         padding="10px"
         marginBottom="100px"
         cursor="pointer"
@@ -77,7 +77,7 @@ const Navbar = () => {
           </Button>
         )}
       </Center>
-    </Fragment>
+    </Box>
   );
 };
 
